@@ -1,0 +1,22 @@
+{
+  "mod_id": "eva_anarchy",
+  "author": "ThunderousEcho",
+  "name": "EVA Anarchy",
+  "description": "Allows EVA even when EVA is disabled due to an obstacle.",
+  "source": "https://github.com/ThunderousEcho/EvaAnarchy",
+  "version": "1.0.0",
+  "version_check": "",
+  "dependencies": [
+    {
+      "id":  "SpaceWarp",
+      "version": {
+        "min": "1.0.1",
+        "max": "*"
+      }
+    }
+  ],
+  "ksp2_version": {
+    "min": "0.1.1",
+    "max": "*"
+  }
+}
