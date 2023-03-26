@@ -28,7 +28,7 @@ public class EvaAnarchyPlugin : BaseSpaceWarpPlugin
     [HarmonyPrefix]
     public static bool IVAPortraitEVAObstacleDetector_IsEVADisabledByObstacle(ref bool __result) {
         instance.Logger.LogInfo($"IsEVADisabledByObstacle called");
-        __result = true;
+        __result = false;
         return false;
     }
 }
